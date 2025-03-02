@@ -10,6 +10,7 @@ object objRowRDD {
     sc.setLogLevel("Error")
     
     val inputFile = sc.textFile("file:///C:/data/countries.txt")
+    println("Input file:"+inputFile)
     val inputSplit = inputFile.map(x=>x.split(","))
     
     val inputColumns = inputSplit.map(x=>Row(x(0), x(1), x(2), x(3)))
@@ -17,6 +18,6 @@ object objRowRDD {
     val fildata = inputColumns.filter(x=>x(2).toString().contains("English"))
     fildata.foreach(println)
     
-    fildata.coalesce(1).saveAsTextFile("file:///C:/data/English_2")
+//    fildata.coalesce(1).saveAsTextFile("file:///C:/data/English_3")
   }
 }

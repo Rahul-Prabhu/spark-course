@@ -15,7 +15,7 @@ object objSchemaRDD {
     val sc = new SparkContext(conf)
     sc.setLogLevel("Error")
     
-    val inputFile = sc.textFile("file:///C:/data/countries.csv")
+    val inputFile = sc.textFile("file:///C:/data/countries.txt")
     val inputSplit = inputFile.map(x=>x.split(","))
     
     val inputColumns = inputSplit.map(x=>filedml(x(0), x(1), x(2), x(3)))
@@ -23,6 +23,6 @@ object objSchemaRDD {
     val fildata = inputColumns.filter(x=>x.language.contains("English"))
     fildata.foreach(println)
     
-    fildata.coalesce(1).saveAsTextFile("file:///C:/data/English")
+//    fildata.coalesce(1).saveAsTextFile("file:///C:/data/English")
   }
 }

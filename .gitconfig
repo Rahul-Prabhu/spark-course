@@ -1,0 +1,6 @@
+target
+.cache*
+.classpath
+.project
+spark-warehouse
+spark-warehouse/
