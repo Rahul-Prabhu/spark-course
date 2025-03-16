@@ -261,5 +261,21 @@
 	<classpathentry kind="lib" path="C:/external_jars/txw2-2.3.3+(1).jar"/>
 	<classpathentry kind="lib" path="C:/external_jars/xmlschema-core-2.2.5+(1).jar"/>
 	<classpathentry kind="lib" path="C:/external_jars/config/config-1.3.4+(1).jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/hbase-client-1.1.2.2.6.2.0-205+(1).jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/hbase-common-1.1.2.2.6.2.0-205+(1).jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/hbase-protocol-1.1.2.2.6.2.0-205+(1).jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/hbase-server-1.1.2.2.6.2.0-205+(1).jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/shc-core-1.1.1-2.1-s_2.11+(1).jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/cassandra/jsr166e-1.1.0+(1).jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/cassandra/spark-cassandra-connector_2.11-2.3.1+(1).jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/kafka-clients-0.10.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/lz4-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/scala-library-2.11.8.jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/snappy-java-1.1.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/spark-sql-kafka-0-10_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/spark-streaming-kafka-0-10_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/spark-tags_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/external_jars/kafka/unused-1.0.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
